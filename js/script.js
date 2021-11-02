@@ -17,13 +17,15 @@ while((difficultGame < 1) || (difficultGame > 3)) {
 //in base alla difficoltà si generano tot quadrati
 if (difficultGame === 1) {
 
-    for(let i = 0; i < 100; i++){
+    for(let i = 1; i <= 100; i++){
 
         let newElem = createSquare ("div", "square1");
+        
 
         newElem.addEventListener("click",
             function(){
                 this.classList.add("clicked-true");
+                newElem.innerHTML += `${i}`
             }
         );
 
@@ -32,13 +34,14 @@ if (difficultGame === 1) {
     }
 }else if(difficultGame === 2){
 
-    for(let i = 0; i < 81; i++){
+    for(let i = 1; i <= 81; i++){
 
         let newElem = createSquare ("div", "square2");
-
+        
         newElem.addEventListener("click",
             function(){
                 this.classList.add("clicked-true");
+                newElem.innerHTML += `${i}`
             }
         );
 
@@ -48,13 +51,15 @@ if (difficultGame === 1) {
 
 }else if(difficultGame === 3){
 
-    for(let i = 0; i < 49; i++){
+    for(let i = 1; i <= 49; i++){
 
         let newElem = createSquare ("div", "square3");
+        newElem.innerHTML += `${i}`
 
         newElem.addEventListener("click",
             function(){
                 this.classList.add("clicked-true");
+                newElem.innerHTML += `${i}`
             }
         );
 
