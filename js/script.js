@@ -54,7 +54,6 @@ if (difficultGame === 1) {
     for(let i = 1; i <= 49; i++){
 
         let newElem = createSquare ("div", "square3");
-        newElem.innerHTML += `${i}`
 
         newElem.addEventListener("click",
             function(){
