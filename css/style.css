@@ -5,3 +5,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: darkblue;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+#containersquare {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: white solid 3px;
+}
+
+.square {
+    background-color: #2b8ab2;
+    height: 50px;
+    width: calc(92% / 7);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
