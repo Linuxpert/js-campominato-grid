@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 500px;
+    width: 700px;
     margin: 60px auto;
     border: white solid 3px;
     
@@ -90,7 +90,7 @@ body {
 
 
 .square-container {
-    height: 500px;
+    height: 700px;
 }
 
 
