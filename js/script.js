@@ -25,7 +25,7 @@ if (difficultGame === 1) {
         newElem.addEventListener("click",
             function(){
                 this.classList.add("clicked-true");
-                newElem.innerHTML += `${i}`
+                newElem.innerText = `${i}`
             }
         );
 
@@ -41,7 +41,7 @@ if (difficultGame === 1) {
         newElem.addEventListener("click",
             function(){
                 this.classList.add("clicked-true");
-                newElem.innerHTML += `${i}`
+                newElem.innerText = `${i}`
             }
         );
 
@@ -58,7 +58,7 @@ if (difficultGame === 1) {
         newElem.addEventListener("click",
             function(){
                 this.classList.add("clicked-true");
-                newElem.innerHTML += `${i}`
+                newElem.innerText = `${i}`
             }
         );
 
